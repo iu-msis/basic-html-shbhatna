@@ -28,7 +28,8 @@
     </div>
   </nav>
 <br>
-<a href="https://cdn.pixabay.com/photo/2015/03/26/11/10/book-692575_960_720.jpg"> <img src="https://cdn.pixabay.com/photo/2015/03/26/11/10/book-692575_960_720.jpg"></a><!--GoogleImage-->
+<a href="https://cdn.pixabay.com/photo/2015/03/26/11/10/book-692575_960_720.jpg"><img src="https://cdn.pixabay.com/photo/2015/03/26/11/10/book-692575_960_720.jpg"></a><!--GoogleImage-->
+<br>
 <br>
 <style>
 		table {
@@ -62,7 +63,7 @@
       <td>1997</td>
       <td>Bloomsburry</td>
       <td>708</td>
-      <td>$ 15</td>
+      <td><Currency>15</Currency></td>
 		</tr>
 		<tr>
       <td>The Perfect Gift</td>
@@ -96,7 +97,7 @@
   <div class="form-row">
     <div class="col-md-4 mb-3">
       <label for="validationCustom01">Book Title</label>
-      <input type="text" class="form-control" id="validationCustom01" placeholder="Book name" value="" required>
+      <input type="string" class="form-control" id="validationCustom01" placeholder="Book name" value="" required>
       <div class="valid-feedback">
         Looks good!
       </div>
@@ -112,7 +113,7 @@
   <div class="form-row">
     <div class="col-md-6 mb-3">
       <label for="validationCustom03">Year</label>
-      <input type="text" class="form-control" id="validationCustom03" placeholder="Year" required>
+      <input type="Integer" class="form-control" id="validationCustom03" placeholder="Year" required>
       <div class="invalid-feedback">
         Please provide a valid Year.
       </div>
@@ -126,14 +127,14 @@
     </div>
     <div class="col-md-3 mb-3">
       <label for="validationCustom05">Page Count</label>
-      <input type="text" class="form-control" id="validationCustom05" placeholder="Pages" required>
+      <input type="Integer" class="form-control" id="Currency-field" placeholder="Pages" required>
       <div class="invalid-feedback">
         Please provide a valid Integer Value.
       </div>
     </div>
     <div class="col-md-3 mb-3">
       <label for="validationCustom05">MRSP</label>
-      <input type="text" class="form-control" id="validationCustom05" placeholder="Price" required>
+      <input type="Currency" class="form-control" id="validationCustom05" placeholder="Price" required>
       <div class="invalid-feedback">
         Please provide a valid Value.
       </div>
