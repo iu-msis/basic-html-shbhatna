@@ -1,10 +1,12 @@
 <!doctype html>
 <html>
 <head>
+    <link rel="stylesheet" href="CSS/site.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <title>My Page Title</title>
 </head>
 <body>
+<!--Navbar Style from Bootstrap - https://getbootstrap.com/docs/4.3/components/navbar/-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,16 +23,19 @@
         <li class="nav-item">
           <a class="nav-link" href="BooksInfo.html">Books</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
       </ul>
     </div>
   </nav>
 <br>
-<a href="https://cdn.pixabay.com/photo/2015/03/26/11/10/book-692575_960_720.jpg"><img src="https://cdn.pixabay.com/photo/2015/03/26/11/10/book-692575_960_720.jpg"></a><!--GoogleImage-->
+<div class="Container Header">
+<center><h1> Book Information Page </h1></center>
+</div>
+<a href="https://cdn.pixabay.com/photo/2015/03/26/11/10/book-692575_960_720.jpg"><img src="https://cdn.pixabay.com/photo/2015/03/26/11/10/book-692575_960_720.jpg" alt="Books"></a><!--GoogleImage-->
+<br>
+<center><a id="Link" href="https://cdn.pixabay.com/photo/2015/03/26/11/10/book-692575_960_720.jpg"> Source: Pixaby Website </a></center>
 <br>
 <br>
+
 <style>
 		table {
 			border-collapse: collapse;
@@ -48,6 +53,7 @@
 	</style>
 </head>
 <body>
+  <div class="container BookTable">
 	<table>
 		<tr>
 			<th>Title</th>
@@ -89,7 +95,16 @@
       <td>321</td>
       <td>$ 62</td>
 		</tr>
+    <tr>
+      <td>The Last Row</td>
+      <td>PacMan</td>
+      <td>2015</td>
+      <td>RowingWorld</td>
+      <td>341</td>
+      <td>$ 12</td>
+    </tr>
 	</table>
+</div>
 <br>
 <br>
 <!--Got code from Bootstrap - Forms/Custom Styles-->

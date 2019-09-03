@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+    <link rel="stylesheet" href="CSS/site.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <title>My Page Title</title>
 </head>
@@ -22,13 +23,12 @@
         <li class="nav-item">
           <a class="nav-link" href="BooksInfo.html">Books</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
       </ul>
     </div>
   </nav>
-<p>Your content goes here.</p>
+  <div class="Header">
+<center><h1>Personal Information</h1></center>
+</div>
 <style>
 		table {
 			border-collapse: collapse;
@@ -46,6 +46,7 @@
 	</style>
 </head>
 <body>
+  <div class="Container BookTable">
 	<table> <!--Table Style from HtmlDog - https://www.htmldog.com/examples/tablelayout1/-->
 		<tr>
 			<th>Title</th>
@@ -68,14 +69,19 @@
 			<td> 22 June 1997</td>
 		</tr>
 		<tr>
-			<td>Email Address</td>
-			<td><a href="mailto:shbhatna@iu.edu">shbhatna@iu.edu</a></td> <!--Instructions-->
+      <td>Email Address</td>
+			<td><div class="Container link"><a href="mailto:shbhatna@iu.edu">shbhatna@iu.edu</a></div></td> <!--Instructions-->
 		</tr>
     <tr>
         <td>Picture</td>
-        <td><img src="https://images.performgroup.com/di/library/goal_es/c1/ce/cristiano-ronaldo-real-madrid-granada-la-liga-ballon-dor_135qp710mgxxd1kmvjs2w0pl8g.jpg?t=2023962713&quality=100"></td><!--GoogleImage-->
+        <td><a href="https://smallimg.pngkey.com/png/small/0-7381_bold-black-stick-figure-stick-man-with-no.png"><img src="https://smallimg.pngkey.com/png/small/0-7381_bold-black-stick-figure-stick-man-with-no.png" alt="Stick Figure">
+          <br>
+          <a id="Link" href="https://smallimg.pngkey.com/png/small/0-7381_bold-black-stick-figure-stick-man-with-no.png"> Source: PNG Key </a>
+        </td><!--GoogleImage-->
+
     </tr>
 	</table>
+</div>
 
 </body>
 </html>
